@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.main{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    min-height: 100vh;
+    padding: 4%;
+
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#search{
+    width: 65%;
+    padding: 10px;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+}
+#mtk, #percent{
+padding: 10px 50px;
+background-color: rgb(24, 24, 24);
+color: white;
+border: 1px solid white;
+
+}
+#coin-table{
+    width: 100%;
+    
+}
+#cryptotable{
+    width: 100%;
+    padding: 50px 10px;
+}
+#cryptotable thead th{
+    padding: 20px 0px;
+
+}
+#cryptotable img{
+    width: 50px;
+}
+#cryptotable tbody th{
+    border-bottom: 1px solid white;
+    padding: 20px 0px;
+
+}
